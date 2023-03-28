@@ -1,0 +1,29 @@
+.spinner {
+  position: absolute;
+  top: 20%;
+  right: 10%;
+  translate: 0 -50%;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 3px solid #ccc9e1;
+  border-top-color: #8f44fd;
+  animation: spin 1s infinite linear;
+}
+@keyframes spin {
+  100% {
+    rotate: 1turn;
+  }
+}
+.spinner2 {
+  position: absolute;
+  top: 43%;
+  right: 10%;
+  translate: 0 -50%;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 3px solid #ccc9e1;
+  border-top-color: #8f44fd;
+  animation: spin 1s infinite linear;
+}

@@ -1,10 +1,14 @@
-import logo from './logo.svg';
-import './App.css';
+import { Routes, Route } from "react-router-dom";
+import Landing from "./pages/Landing.jsx";
+import Login from "./pages/Login/Login.jsx";
 
 function App() {
   return (
     <div className="App">
-      <center><h1>Market Stock - Digital Code Group</h1></center>
+      <Routes>
+        <Route exact path="/" element={<Landing />} />
+        <Route exact path="/login" element={<Login />} />
+      </Routes>
     </div>
   );
 }
